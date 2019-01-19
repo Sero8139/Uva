@@ -10,14 +10,14 @@ int main(int argc , char* argv[]){
     int N;
     while(cin >> N){
 
-    	// computer the number of corners
+    	// compute the number of corners
         int length = 1 << N;
         // get input weights
         int weights[length]={0};
         for(int i=0;i<length;i++){
 			cin >> weights[i];        
         }
-        // computer potency of every corner
+        // compute potency of every corner
         int potency[length]={0};
         for(int i=0;i<length;i++){
         	int sum = 0;
