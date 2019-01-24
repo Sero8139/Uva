@@ -1,13 +1,20 @@
 #! /bin/bash
-if [ "$1" == "" ] 
+if [ "$1" == "" ];
 then
 	echo "input problem number as first parameter"
 	exit -1
 fi
 
 mkdir -p $1
-cp template/template.cpp $1/Uva-$1.cpp
-cp template/template.md $1/Readme.md
+if [ ! -f $1/Uva-$1.cpp ]; then
+    echo "create template cpp file"
+    cp template/template.cpp $1/Uva-$1.cpp
+fi
+
+if [ ! -f $1/Readme.md ]; then
+    echo "create template Readme file"
+    cp template/template.md $1/Readme.md
+fi
 
 PROBLEM_GROUP=`expr $1 / 100`
 PROBLEM_NUM=$1

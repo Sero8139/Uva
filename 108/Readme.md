@@ -1,5 +1,5 @@
 # problem link
-[link] https://uva.onlinejudge.org/external/1/108.pdf
+[link](https://uva.onlinejudge.org/external/1/108.pdf)
 
 # compile
 ```

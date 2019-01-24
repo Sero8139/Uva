@@ -1,8 +1,5 @@
 # problem link
-[link] https://uva.onlinejudge.org/external/104/10165.pdf
-
-# Reference link
-[link] http://www.csie.ntnu.edu.tw/~u91029/Number.html#5
+[link](https://uva.onlinejudge.org/external/101/10165.pdf)
 
 # compile
 ```
